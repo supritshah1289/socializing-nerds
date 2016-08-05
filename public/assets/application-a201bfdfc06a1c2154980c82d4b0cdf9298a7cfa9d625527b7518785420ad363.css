@@ -1,0 +1,96 @@
+/* line 5, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+.chatroom-form {
+  margin: 5%;
+  text-align: center;
+}
+
+/* line 10, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+#create-chatroom {
+  margin-top: 5%;
+}
+
+/* line 14, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+#chatroom-index {
+  list-style: none;
+  font-size: 22px;
+  padding-left: 0px;
+}
+
+/* line 20, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+#chatroom-index > li {
+  margin-left: 0px;
+}
+
+/* line 24, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+#chatrooms {
+  text-align: center;
+}
+
+/* line 28, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+#chatroom-title {
+  text-align: center;
+}
+
+/* line 32, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/chatrooms.scss */
+#hidden {
+  display: none;
+}
+/* line 6, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/users.scss */
+.auth-form {
+  margin: 5%;
+  text-align: center;
+}
+
+/* line 11, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/users.scss */
+#new_user div.input-group {
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* line 16, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/users.scss */
+.auth-form label {
+  margin-bottom: 3%;
+}
+
+/* line 20, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/users.scss */
+.auth-form > form > div.actions {
+  margin-top: 3%;
+}
+
+/* line 24, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/users.scss */
+.auth-form > form > div.actions input.btn {
+  width: 50%;
+}
+
+/* line 28, /Users/supritkumarshah/code/rails-project/entertainment_app/app/assets/stylesheets/users.scss */
+#log-in-title {
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "chatrooms";
+@import "messages";
+@import "users";
+
+
+.github-fork-ribbon.right-bottom:before {
+    background-color: black;
+}
