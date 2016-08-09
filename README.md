@@ -4,9 +4,9 @@ The project is about helping each other out with a real time chat application th
 ##User stories
 * User can sign up 
 * User can login 
-* User can create Chatroom
-* User can Join the Chatroom
-* User can send messages to Chatroom
+* User can create new chatroom
+* User can join the chatroom
+* User can send messages to chatroom
 
 
 
