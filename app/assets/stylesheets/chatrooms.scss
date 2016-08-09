@@ -17,6 +17,19 @@
   padding-left: 0px;
 }
 
+.chatbox{
+  height: 400px;
+  width: 400px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  border: 0.2px solid black;
+  border-radius: 10px;
+}
+
+.chatbox_message{
+  width: 400px;
+}
+
 #chatroom-index > li {
   margin-left: 0px;
 }

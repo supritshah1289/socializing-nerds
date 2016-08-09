@@ -1,3 +1,4 @@
+<%if current_user%>
 <div class="row col-md-8 col-md-offset-2" id="chatroom-title">
   <h1>Chatrooms</h1>
 </div>
@@ -15,3 +16,6 @@
     <p>Be the first one to make a chatroom!</p>
   <% end %>
 </div>
+<%else%>
+  <h2>Please login to view this page</h2>
+<%end%>
